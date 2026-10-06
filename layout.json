@@ -1,0 +1,405 @@
+{
+  "schema": "paper-proof-layout-1",
+  "sources": [
+    {
+      "source": "src/tests_test_verifier.py",
+      "paths": [
+        "tests/test_verifier.py"
+      ],
+      "sha256": "8677ac86cf466df4df233c051d9b3ea280ba96cba787c09bc0b935ead591cdae"
+    },
+    {
+      "source": "src/lp-f4-544-64-14-w8_validate_hash_union.py",
+      "paths": [
+        "codes/lp-quaternary/lp-f4-1088-128-16-w8/proof/validate_hash_union.py",
+        "codes/lp-quaternary/lp-f4-1088-128-22-w10-f22/proof/validate_hash_union.py",
+        "codes/lp-quaternary/lp-f4-544-64-14-w8/proof/validate_hash_union.py"
+      ],
+      "sha256": "056dc4ca8fae1f3ae1f374146132853aa209a150b95f1d3eb4ad662252e76308"
+    },
+    {
+      "source": "src/export.py",
+      "paths": [
+        "export.py"
+      ],
+      "sha256": "05b73daa69073b934440c963d139f63954432b71a99dda0e559ffc840521b5cf"
+    },
+    {
+      "source": "src/noncyclic_pp_check.py",
+      "paths": [
+        "verification/noncyclic_pp/check.py"
+      ],
+      "sha256": "20463097b588135c7917139fe1d54912108e0702a2a9f8cd2ac6e5871a10c973"
+    },
+    {
+      "source": "src/verify_all.py",
+      "paths": [
+        "verify_all.py"
+      ],
+      "sha256": "700d04f3b12c9d3acd430b646c0e5316459372c799b62bdadae31d6958d3e1dd"
+    },
+    {
+      "source": "src/pp_detector_exclusion.cpp",
+      "paths": [
+        "verification/pp_width/records/exact_target.cpp"
+      ],
+      "sha256": "23abf16f65457a8866cc375d47e2cd72aeb9b25c263a09946932ea0ba95fce39"
+    },
+    {
+      "source": "src/pp_distance_check.py",
+      "paths": [
+        "verification/pp_distance/check.py"
+      ],
+      "sha256": "2b599e9b3b69aff2efc5444304d41340a2473219a60dfd7628217a00847d0276"
+    },
+    {
+      "source": "src/kernel_minima_native.cpp",
+      "paths": [
+        "verification/regular_pairing/src/kernel_minima_native.cpp"
+      ],
+      "sha256": "2cba7aa76e6603fb85afa9d3130b5e16615a307f03571ea10bc36403699db84a"
+    },
+    {
+      "source": "src/public_integrity.py",
+      "paths": [
+        "public_integrity.py"
+      ],
+      "sha256": "2f88c82c58999da9302508851eae1f28b8ddf466bacf61afcbf93360236859aa"
+    },
+    {
+      "source": "src/audit_pp.py",
+      "paths": [
+        "verification/check8_pp/src/audit_pp.py",
+        "verification/check8_pp_period48/src/audit_pp.py",
+        "verification/even_period_pp/vendor/audit_pp.py",
+        "verification/pp48_w10_bound/completed/reused/src/audit_pp.py",
+        "verification/pp48_w10_bound/completed/src/audit_pp.py"
+      ],
+      "sha256": "2beb70550d64d9a1f4f38d25a184cc6c17283fbe2df28f597d6d1b55d330af64"
+    },
+    {
+      "source": "src/check8_pp_check.py",
+      "paths": [
+        "verification/check8_pp/check.py"
+      ],
+      "sha256": "cb1757b96c370e1b3eaa47f10632ac7642b3d802f95ec1589b5a8449b473ef00"
+    },
+    {
+      "source": "src/verify.py",
+      "paths": [
+        "verify.py"
+      ],
+      "sha256": "3f85b20a1ce54716301abb966787cc9bb9f183a4383e6d1f2212fb4f61a21438"
+    },
+    {
+      "source": "src/pp_width_worker.py",
+      "paths": [
+        "verification/pp_width/records/worker.py"
+      ],
+      "sha256": "c3313c98b0d53a8623f577b3479cb70394343d5b7825fe2715b9c04bfb210ae8"
+    },
+    {
+      "source": "src/check8_pp_period48_check.py",
+      "paths": [
+        "verification/check8_pp_period48/check.py"
+      ],
+      "sha256": "461318ab78ae31d07e0089af6df43c892f58835db7471d63f973f79be194054f"
+    },
+    {
+      "source": "src/pp_w9_verify.py",
+      "paths": [
+        "evidence/records/construction_checks/pp_w9/verify.py"
+      ],
+      "sha256": "cbc78fb980de43e0382ca6d9de1cc67d6f464ad707fe34b733177eefad736a86"
+    },
+    {
+      "source": "src/pp_width_verify_results.py",
+      "paths": [
+        "verification/pp_width/records/verify_results.py"
+      ],
+      "sha256": "a10fca723d807a56763bebe571c81485e0dae75a60154f7869261dbb5937f539"
+    },
+    {
+      "source": "src/pp_width_build.py",
+      "paths": [
+        "verification/pp_width/records/build.py"
+      ],
+      "sha256": "f99fb07cf25d1058abcb582db29589f47cd2f0388f5cf2db94bbc6583ab123ac"
+    },
+    {
+      "source": "src/codes_reproduce_distance.py",
+      "paths": [
+        "codes/reproduce_distance.py"
+      ],
+      "sha256": "5b09cf24a018b512cddb05d38a4eaedaca1c1b251a5d95c72659a5c28c4811c3"
+    },
+    {
+      "source": "src/lp-f4-544-64-14-w8_replay.py",
+      "paths": [
+        "codes/lp-quaternary/lp-f4-1088-128-16-w8/proof/replay.py",
+        "codes/lp-quaternary/lp-f4-544-64-14-w8/proof/replay.py"
+      ],
+      "sha256": "e728cfca5be7962b545fe9ddf8be607c2625ceb8913c786ae3b872cea01d27a0"
+    },
+    {
+      "source": "src/pp_width_guard_group.py",
+      "paths": [
+        "verification/pp_width/records/guard_group.py"
+      ],
+      "sha256": "9bef4efa6c2139ff493ae2ba09f8878ae3eb8e72d41de235a64b6170fccfe82d"
+    },
+    {
+      "source": "src/noncyclic_pp_replay.py",
+      "paths": [
+        "verification/noncyclic_pp/replay.py"
+      ],
+      "sha256": "c0ec72f814d9fe90e1299ad3d86b42cc02d72bee873f854671a20ea4d86b99d7"
+    },
+    {
+      "source": "src/lp-f4-476-56-14_check_ring_inverse.py",
+      "paths": [
+        "codes/lp-quaternary/lp-f4-476-56-14/proof/check_ring_inverse.py"
+      ],
+      "sha256": "b275e5729c8d0f949d2776318c7065e6ff86bb0147d20d31f65e222cb6e7e78b"
+    },
+    {
+      "source": "src/lp-f4-476-56-14_replay.py",
+      "paths": [
+        "codes/lp-quaternary/lp-f4-476-56-14/proof/replay.py",
+        "codes/lp-quaternary/lp-f4-544-64-14/proof/replay.py",
+        "codes/lp-quaternary/lp-f4-544-64-15/proof/replay.py"
+      ],
+      "sha256": "a0165618b668637f773dd3538327a8fb05b3aeb6cad32b96e25ac39dfdad200d"
+    },
+    {
+      "source": "src/lp-f4-1088-128-22-w10-f22_replay.py",
+      "paths": [
+        "codes/lp-quaternary/lp-f4-1088-128-22-w10-f22/proof/replay.py"
+      ],
+      "sha256": "801321796ea4ede3801fbfd70c340255fe05479fee9a6f1a1d6e9c99bc882f1a"
+    },
+    {
+      "source": "src/small_quaternary_pp_check.py",
+      "paths": [
+        "verification/small_quaternary_pp/check.py"
+      ],
+      "sha256": "813c0e79258a9cbb34e431c515ad3ecf4e960f81dde0240c75827219e9470718"
+    },
+    {
+      "source": "src/pp_width_test_small.py",
+      "paths": [
+        "verification/pp_width/test_small.py"
+      ],
+      "sha256": "8560ffdfb8b522960c516b763a6d26ef6fc5dc2ed4472d038ea56ebd17588b9d"
+    },
+    {
+      "source": "src/regular_pairing_check.py",
+      "paths": [
+        "verification/regular_pairing/check.py"
+      ],
+      "sha256": "85764562ef2a8184b4cf4e9b172bd6fce56d732134e1000cfd66865095e8ab50"
+    },
+    {
+      "source": "src/lp-f4-1088-128-22-w10-f22_run_all_shards.py",
+      "paths": [
+        "codes/lp-quaternary/lp-f4-1088-128-22-w10-f22/proof/run_all_shards.py"
+      ],
+      "sha256": "05704b6c7e05f55234698568b473cb8ff38817f85992a54f63783eb2515c726a"
+    },
+    {
+      "source": "src/pp48_w10_bound_check.py",
+      "paths": [
+        "verification/pp48_w10_bound/check.py"
+      ],
+      "sha256": "57114474464fe19947b9937a6b71c66884ea3a811e19cf1672efac2b9b1608f4"
+    },
+    {
+      "source": "src/even_period_pp_check.py",
+      "paths": [
+        "verification/even_period_pp/check.py"
+      ],
+      "sha256": "34416d704adb0fba58a2b94faa71d8216efa1086d7f18c6cbc102e58728c3add"
+    },
+    {
+      "source": "src/comparisons_check.py",
+      "paths": [
+        "comparisons/check.py"
+      ],
+      "sha256": "995ca802b15c502f49f3274fd0279b094f1e3f230822beb4787860674d2e7d04"
+    },
+    {
+      "source": "src/pp_exclusion.cpp",
+      "paths": [
+        "codes/lp-quaternary/lp-f4-1088-128-16-w8/proof/engine/exact.cpp",
+        "codes/lp-quaternary/lp-f4-1088-128-22-w10-f22/proof/engine/exact.cpp",
+        "codes/lp-quaternary/lp-f4-544-64-14-w8/proof/engine/exact.cpp",
+        "evidence/records/f4_hybrid/distance_extension/exact.cpp",
+        "evidence/records/pp_construction_records/released_parent08_child007_certification/exact.cpp",
+        "verification/check8_pp/src/exact.cpp",
+        "verification/check8_pp_period48/src/exact.cpp",
+        "verification/even_period_pp/vendor/exact.cpp",
+        "verification/noncyclic_pp/src/exact.cpp",
+        "verification/pp48_w10_bound/completed/reused/src/exact.cpp",
+        "verification/pp48_w10_bound/completed/src/exact.cpp",
+        "verification/pp_distance/records/exact.cpp",
+        "verification/small_quaternary_pp/src/exact.cpp"
+      ],
+      "sha256": "9f733fcdc935f7011b3128216cecc58ed8cb3949e7d422431a85ab5cb5f152b6"
+    },
+    {
+      "source": "src/rlf.py",
+      "paths": [
+        "rlf.py"
+      ],
+      "sha256": "a1bbd331de52e1f0144526791666b029d8b431c14d5db4623e6399f3ff28bedc"
+    },
+    {
+      "source": "src/regular_pairing_build_certificates.py",
+      "paths": [
+        "verification/regular_pairing/build_certificates.py"
+      ],
+      "sha256": "ade8d5332b1f19c601dcc00ff0f63c6ffb9b8dd2f37d711fb6817b4299c26c1c"
+    },
+    {
+      "source": "src/independent_lp_check.py",
+      "paths": [
+        "verification/lpq_extended/independent544/check.py"
+      ],
+      "sha256": "6091ae1f82f5b0ea03319f501be61c289642bfc5a2dd07d0da475f5f5cbf4a22"
+    },
+    {
+      "source": "src/tests_test_catalogue.py",
+      "paths": [
+        "tests/test_catalogue.py"
+      ],
+      "sha256": "b9873ef34d7881640d20729d61e03a97679e3188eaa9489ffb70339fc3eb1aa8"
+    },
+    {
+      "source": "src/kernel_minima_reverse.cpp",
+      "paths": [
+        "verification/regular_pairing/src/kernel_minima_reverse.cpp"
+      ],
+      "sha256": "b9f0b5be8e26195af5c37fb45f33c29956653ee028212e58646489caa0b74a8c"
+    },
+    {
+      "source": "src/pp_width_check.py",
+      "paths": [
+        "verification/pp_width/check.py"
+      ],
+      "sha256": "c2d8e8aa378fb2404827b923b7bda8d2cfb5f3d13ef43cbb3bdee4695d74c22e"
+    },
+    {
+      "source": "src/independent_lpq.py",
+      "paths": [
+        "verification/lpq_extended/independent544/source/independent_lpq.py"
+      ],
+      "sha256": "0f814f5e44c7f672649d5f8b82c791fc6e5905c2fe78c52c4031ab2874801552"
+    },
+    {
+      "source": "src/even_period_pp_test_receipts.py",
+      "paths": [
+        "verification/even_period_pp/test_receipts.py"
+      ],
+      "sha256": "d98675ad82a7db2450eb44913fe209eb744f98130889a63d4cdebb13fcb2966e"
+    },
+    {
+      "source": "src/common.hpp",
+      "paths": [
+        "codes/lp-quaternary/lp-f4-1088-128-16-w8/proof/engine/common.hpp",
+        "codes/lp-quaternary/lp-f4-1088-128-22-w10-f22/proof/engine/common.hpp",
+        "codes/lp-quaternary/lp-f4-544-64-14-w8/proof/engine/common.hpp",
+        "evidence/records/f4_hybrid/distance_extension/common.hpp",
+        "evidence/records/pp_construction_records/released_parent08_child007_certification/common.hpp",
+        "verification/check8_pp/src/common.hpp",
+        "verification/check8_pp_period48/src/common.hpp",
+        "verification/even_period_pp/vendor/common.hpp",
+        "verification/noncyclic_pp/src/common.hpp",
+        "verification/pp48_w10_bound/completed/reused/src/common.hpp",
+        "verification/pp48_w10_bound/completed/src/common.hpp",
+        "verification/pp_distance/records/common.hpp",
+        "verification/pp_width/records/common.hpp",
+        "verification/small_quaternary_pp/src/common.hpp"
+      ],
+      "sha256": "e9233ec63460a789be4bcaa9ecc37075bd59470773c09a898ab968daf1bad667"
+    },
+    {
+      "source": "src/regular_pairing_replay.py",
+      "paths": [
+        "verification/regular_pairing/replay.py"
+      ],
+      "sha256": "eb449e0deac9bd293727c3bf11dddccca852caf9c480fefe77f279c6fdd4cd1d"
+    },
+    {
+      "source": "src/binary_audit.py",
+      "paths": [
+        "verification/check8_pp/src/binary_audit.py",
+        "verification/check8_pp_period48/src/binary_audit.py",
+        "verification/even_period_pp/vendor/binary_audit.py",
+        "verification/pp48_w10_bound/completed/reused/src/binary_audit.py",
+        "verification/pp48_w10_bound/completed/src/binary_audit.py",
+        "verification/small_quaternary_pp/binary_audit.py"
+      ],
+      "sha256": "cf3a4383d5ede81ccd042071d726476d9a3b335191e40350a730d1358c3a3719"
+    },
+    {
+      "source": "src/pp_width_grouped.py",
+      "paths": [
+        "verification/pp_width/records/grouped.py"
+      ],
+      "sha256": "ee514cdf326f3726e998f2f887c6f1c9df4dfa1d81ff861bd6d136291ba9b693"
+    },
+    {
+      "source": "src/lp_exclusion.cpp",
+      "paths": [
+        "codes/lp-quaternary/lp-f4-476-56-14/proof/excl.cpp",
+        "codes/lp-quaternary/lp-f4-544-64-14/proof/excl.cpp",
+        "codes/lp-quaternary/lp-f4-544-64-15/proof/excl.cpp",
+        "evidence/records/construction_checks/pp_w9/source/excl_native.cpp",
+        "evidence/records/construction_records/claude_lp_frames/binary_audit/excl.cpp",
+        "evidence/records/construction_records/lpq_check_limited/distance/excl.cpp",
+        "evidence/records/construction_records/lpq_supplied/distance/excl.cpp",
+        "evidence/records/construction_records/odd_lp_comparison/distance/excl.cpp",
+        "verification/lpq_extended/independent544/source/excl.cpp"
+      ],
+      "sha256": "f13dec58accb840766b90a901184cba545462d0d559c1302b686e69acf04a759"
+    },
+    {
+      "source": "src/pp_width_tests.py",
+      "paths": [
+        "verification/pp_width/records/tests.py"
+      ],
+      "sha256": "4c2635c732ae20d3e720c77104023071615b9b4e9abe9a70bb8e52182b9f77ce"
+    },
+    {
+      "source": "src/pp_small_exclusion.cpp",
+      "paths": [
+        "evidence/records/f4_hybrid/cluster.cpp"
+      ],
+      "sha256": "fb9cca4e31fef1f5e6d0c726468c47a43b6da76ea6cbc3880ee1f62191b001a5"
+    }
+  ],
+  "proof_bundles": [
+    "proofs/check8_pp.json",
+    "proofs/check8_pp_period48.json",
+    "proofs/even_period_pp.json",
+    "proofs/independent_lp.json",
+    "proofs/lp_binary.json",
+    "proofs/lp_odd_comparison.json",
+    "proofs/lp_pairing_obstruction.json",
+    "proofs/lp_quaternary.json",
+    "proofs/lp_replays.json",
+    "proofs/lp_small.json",
+    "proofs/noncyclic_pp.json",
+    "proofs/pp48_w10_bound.json",
+    "proofs/pp512.json",
+    "proofs/pp_distance.json",
+    "proofs/pp_frame_optimum.json",
+    "proofs/pp_lifts.json",
+    "proofs/pp_small.json",
+    "proofs/pp_w9.json",
+    "proofs/reference.json",
+    "proofs/small_quaternary_pp.json"
+  ],
+  "generated_checks": 40,
+  "expanded_manifest_sha256": "6eca5c5b66b9f518afdaa816fc02f72b7d8601d46b976a6bab5e24fee7dd2c87"
+}

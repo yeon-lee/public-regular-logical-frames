@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper for the constructions, logical-frame methods, and LP distance-search and certification method. Cite this repository additionally when using its implementation or proof data. See README.md for BibTeX and suggested attribution."
+type: software
+title: "regular-logical-frames: Constructions and Computational Proof Data"
+authors:
+  - family-names: Lee
+    given-names: Jong Yeon
+    affiliation: "University of Illinois Urbana-Champaign; Korea Institute for Advanced Study"
+abstract: "Group-valued quantum codes with explicit regular logical frames, efficient exhaustive distance certification using symmetry reduction and stabilizer-based pruning, finite proof certificates, independent checkers, and reproducible execution records."
+repository-code: "https://github.com/yeon-lee/public-regular-logical-frames"
+preferred-citation:
+  type: generic
+  title: "Designing Group-Valued Codes with Full Regular Low-Weight Bases"
+  authors:
+    - family-names: Lee
+      given-names: Jong Yeon
+  year: 2026
+  doi: "10.48550/arXiv.2610.06820"
+  url: "https://arxiv.org/abs/2610.06820"
+  notes: "arXiv:2610.06820 [quant-ph]. See README.md for BibTeX."
+keywords:
+  - quantum error correction
+  - logical operators
+  - group algebra
+  - lifted-product codes
+  - pair-partition codes
+  - computational proofs
+  - exact distance certification
