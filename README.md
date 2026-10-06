@@ -53,6 +53,18 @@ distance-search and certification method, please cite the accompanying paper:
 > Jong Yeon Lee, *Designing Group-Valued Codes with Full Regular Low-Weight Bases*
 > (2026), [arXiv:2610.06820](https://arxiv.org/abs/2610.06820) [quant-ph].
 
+```bibtex
+@misc{lee2026designinggroupvaluedcodesregular,
+  title={Designing Group-Valued Codes with Full Regular Low-Weight Bases},
+  author={Jong Yeon Lee},
+  year={2026},
+  eprint={2610.06820},
+  archivePrefix={arXiv},
+  primaryClass={quant-ph},
+  url={https://arxiv.org/abs/2610.06820},
+}
+```
+
 ### Efficient distance search and exact certification for LP codes
 
 Please cite the paper when using or extending its method for efficient exhaustive
@@ -75,19 +87,7 @@ Suggested attribution, when applicable:
 > translation-symmetry reduction with syndrome-directed branching and
 > stabilizer-overlap pruning.
 
-### BibTeX
-
-```bibtex
-@misc{lee2026designinggroupvaluedcodesregular,
-  title         = {Designing Group-Valued Codes with Full Regular Low-Weight Bases},
-  author        = {Jong Yeon Lee},
-  year          = {2026},
-  eprint        = {2610.06820},
-  archivePrefix = {arXiv},
-  primaryClass  = {quant-ph},
-  url           = {https://arxiv.org/abs/2610.06820}
-}
-```
+### Software and proof data
 
 If you use the released implementation, constructions, or proof data, please
 also cite the repository:
